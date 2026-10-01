@@ -50,14 +50,14 @@ The data are divided chronologically into an 80% training sample and a 20% testi
 
 The primary target is 20-trading-day forward realized volatility:
 
-$$
+$
 RV_{t,20}
 =
 \sqrt{
 \frac{252}{20}
 \sum_{i=1}^{20}r_{t+i}^{2}
 }
-$$
+$
 
 Future returns are used only to construct the evaluation target and are never used as model inputs when forecasts are generated.
 
