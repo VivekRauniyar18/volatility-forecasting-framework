@@ -85,11 +85,7 @@ The fitted process produced a mean-reversion half-life of approximately 1.32 yea
 EWMA updates conditional variance using exponentially declining weights:
 
 $$
-\sigma_t^2
-=
-\lambda\sigma_{t-1}^2
-+
-(1-\lambda)r_t^2
+\sigma_t^2 = \lambda\sigma_{t-1}^2 + (1-\lambda)r_t^2
 $$
 
 with:
@@ -105,13 +101,7 @@ This allows volatility forecasts to respond more quickly to recent market shocks
 Conditional variance is modeled as:
 
 $$
-\sigma_t^2
-=
-\omega
-+
-\alpha\epsilon_{t-1}^2
-+
-\beta\sigma_{t-1}^2
+\sigma_t^2 = \omega + \alpha\epsilon_{t-1}^2 + \beta\sigma_{t-1}^2
 $$
 
 The fitted model exhibits high volatility persistence, with:
