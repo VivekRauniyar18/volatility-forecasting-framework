@@ -134,13 +134,7 @@ Therefore, negative bias indicates systematic overprediction of volatility.
 QLIKE is calculated from realized and forecast variance as:
 
 $$
-QLIKE
-=
-\frac{RV}{FV}
--
-\ln\left(\frac{RV}{FV}\right)
--
-1
+QLIKE = \frac{RV}{FV} - \ln\left(\frac{RV}{FV}\right) - 1
 $$
 
 where lower values indicate better forecast performance.
